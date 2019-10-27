@@ -1,0 +1,32 @@
+body {
+    background: #1D2B64;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5f7fa, #c3cfe2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 30px;
+}
+
+hr {
+    border: dotted 1px grey;
+}
+
+.container {
+    border: dashed black 1px;
+}
+
+.button {
+    border: solid black 1px;
+}
+
+.okButton {
+    background-image: linear-gradient(to top, #a3bded -70%, #6991c7 100%);
+
+}
+
+.button:hover {
+    border: solid white 1px;
+}
+
+.nokButton {
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+}
